@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matoa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-xxl navbar-light p-0 d-flex justify-content-center align-items-center header">
+            <div class="container-fluid p-0 rmw-auto">
+                <div class="d-flex justify-content-between align-items-center xlw-100">
+                    <img src="images/matoa_gold.png" alt="Matoa Logo" />
+
+                    <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mynavbar">
+                        <input type="checkbox" id="navbar-toggle" class="bar-toggler navbar-toggler-checkbox" />
+                        <label for="navbar-toggle" class="navbar-toggler p-0">
+                            <i class="open fa-solid fa-bars" style="color: #000000;"></i>
+                            <i class="close fa-solid fa-xmark" style="color: #000000;"></i>
+                        </label>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse m-0 justify-content-between menu" id="mynavbar">
+                    <ul class="navbar-nav justify-content-end align-items-center w-100 xl-d-flex-center">
+                        <li class="nav-item me-1 xl-my-menu">
+                            <a href="#videos">Watches</a>
+                        </li>
+                        <li class="nav-item me-1 xl-my-menu">
+                            <a href="#Programme">Eyewear</a>
+                        </li>
+                        <li class="nav-item me-1 xl-my-menu">
+                            <a href="#Live">Accessories</a>
+                        </li>
+                        <li class="nav-item me-1 xl-my-menu">
+                            <a href="#Lehrer:innen">News</a>
+                        </li>
+                        <li class="nav-item xl-my-menu">
+                            <div class="search-login">
+                                <form class="d-flex" action="#search" method="get">
+                                    <input class="input" type="text" name="search-inp" id="search-inp"
+                                        placeholder="Search" autocomplete="on">
+                                    <button type="submit" id="submit"><img src="images/search.svg"
+                                            alt="Search Image"></button>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="nav-item xl-my-menu">
+                            <div class="search-login">
+                                <img src="images/account.svg" alt="account image">
+                                <a href="#login" class="login" id="login">Log In</a>
+                            </div>
+                        </li>
+                        <li class="nav-item xl-my-menu">
+                            <div class="cart d-flex justify-content-center align-items-center">
+                                <img src="images/cart.svg" alt="cart image">
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+            <div class="carousel-inner banner-top d-flex">
+                <div class="w-100 carousel-item active stratch">
+                    
+                    <div class="bg-pitch stratch flex-column align-items-center h-100 justify-content-between mb-3">
+                        <div id="banner-content" class="d-flex justify-content-center flex-column banner-content stratch">
+                            <span class="banner-title w-60 d-flex">WAY KAMBAS MINI EBONY</span>
+                            <span class="banner-title-hr"></span>
+                            <span class="banner-description w-65">MATOA Way Kambas - This wood is chosen to
+                                represent the
+                                Sumatran Rhino's skin which is designed with an overlap effect on its strap to
+                                represent Rhino's
+                                skin.</span>
+                            <span class="banner-discover bottom-border">Discover</span>
+                        </div>
+                        <div class="d-flex flex-row align-items-center banner-btn">
+                            <a href="#link" class="bg-orange btn-add-cart d-flex align-items-center">
+                                <div>
+                                    <img src="images/add_cart.svg" alt="Add cart image">
+                                </div>
+                                <span class="text-add-cart">Add to cart</span>
+                            </a>
+                            <a href="#link" class="btn-cicil d-flex justify-content-center align-content-center">
+                                <img src="images/cicil.svg" alt="CICIL image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 watch-relative">
+                        <img class="banner-image-main" src="images/watch_wooden.png" alt="watch wooden image">
+                    </div>
+                    <div class="position-relative">
+                        <img class="zig-zag-top" src="images/zig_zag_top.svg" alt="Zig Zag image">
+                    </div>
+                </div>
+                <div class="w-100 carousel-item stratch">
+                    <div class="bg-pitch stratch flex-column align-items-center h-100 justify-content-between mb-3">
+                        <div id="banner-content" class="d-flex justify-content-center flex-column banner-content stratch">
+                            <span class="banner-title w-60 d-flex">WAY KAMBAS MINI MAPLE</span>
+                            <span class="banner-title-hr"></span>
+                            <span class="banner-description w-65">MATOA Way Kambas - This wood is chosen to
+                                represent the
+                                Sumatran Rhino's skin which is designed with an overlap effect on its strap to
+                                represent Rhino's
+                                skin.MATOA Way Kambas - This wood is chosen to
+                                represent the
+                                Sumatran Rhino's skin which is designed with an overlap effect on its strap to
+                                represent Rhino's
+                                skin.</span>
+                            <span class="banner-discover bottom-border">Discover</span>
+                        </div>
+                        <div class="d-flex flex-row align-items-center banner-btn">
+                            <a href="#link" class="bg-orange btn-add-cart d-flex align-items-center">
+                                <div>
+                                    <img src="images/add_cart.svg" alt="Add cart image">
+                                </div>
+                                <span class="text-add-cart">Add to cart</span>
+                            </a>
+                            <a href="#link" class="btn-cicil d-flex justify-content-center align-content-center">
+                                <img src="images/cicil.svg" alt="CICIL image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="position-absolute bottom-0 watch-relative">
+                        <img class="banner-image-main" src="images/watch_wooden.png" alt="watch wooden image">
+                    </div>
+                    <div class="position-relative">
+                        <img class="zig-zag-top" src="images/zig_zag_top.svg" alt="Zig Zag image">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center prev-next-btn">
+                <button class="previous" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <img src="images/previous.svg" alt="Previous Image" />
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="bg-orange next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <img src="images/next.svg" alt="Next Image" />
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mx-165 d-flex flex-column justify-content-center">
+
+            <div class="content-2">
+                <div class="bg-white p-4 c2wrap">
+                    <span class="title">Luxurious <strong>Eyewear</strong></span>
+                    <span class="description">See the beauty of exotic world with the luxurious glasses</span>
+                    <a href="#link" class="discover bottom-border">Discover Now</a>
+                    <div class="img">
+                        <img class="sunglass" src="images/sunglass.png" alt="Sunglass Image">
+                    </div>
+                </div>
+                <div class="bg-white p-4 c2wrap">
+                    <span class="title">Comfortable <strong>Watches</strong></span>
+                    <span class="description">Feels the balancing function and beauty in our wooden watches</span>
+                    <a href="#link" class="discover bottom-border">Discover Now</a>
+                    <div class="img">
+                        <img class="watch" src="images/watch_golden.png" alt="Watch Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-3 d-flex flex-column">
+                <span class="heading">Monthly Deals</span>
+                <span class="bottom-line"></span>
+
+                <div class="products">
+                    <div class="product">
+                        <img class="prod-img" src="images/watch_card_1.png" alt="Watch Image">
+                        <span class="title">Singo Maple</span>
+                        <span class="discount">20% Off</span>
+                        <s class="strok-red">
+                            <span class="old-price">Rp 1.500.000<span>
+                        </s>
+                        <span class="new-price">Rp 1.264.000</span>
+                        <div class="fav-add-cart">
+                            <img class="favorite" src="images/favorite.svg" alt="favorite image">
+                            <a href="#link">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="prod-img" src="images/watch_card_2.png" alt="Watch Image">
+                        <span class="title">Singo Ebony</span>
+                        <span class="discount">20% Off</span>
+                        <s class="strok-red">
+                            <span class="old-price">Rp 1.500.000<span>
+                        </s>
+                        <span class="new-price">Rp 1.264.000</span>
+                        <div class="fav-add-cart">
+                            <img class="favorite" src="images/favorite.svg" alt="favorite image">
+                            <a href="#link">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="prod-img" src="images/watch_card_3.png" alt="Watch Image">
+                        <span class="title">Rakai Ebony</span>
+                        <span class="discount">15% Off</span>
+                        <s class="strok-red">
+                            <span class="old-price">Rp 1.280.000<span>
+                        </s>
+                        <span class="new-price">Rp 1.118.000</span>
+                        <div class="fav-add-cart">
+                            <img class="favorite" src="images/favorite.svg" alt="favorite image">
+                            <a href="#link">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img class="prod-img" src="images/watch_card_4.png" alt="Watch Image">
+                        <span class="title">Way Kambas Mini Maple</span>
+                        <span class="discount">10% Off</span>
+                        <s class="strok-red">
+                            <span class="old-price">Rp 1.280.000<span>
+                        </s>
+                        <span class="new-price">Rp 1.024.000</span>
+                        <div class="fav-add-cart">
+                            <img class="favorite" src="images/favorite.svg" alt="favorite image">
+                            <a href="#link">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-4 d-flex flex-column">
+                <span class="heading">Recent News</span>
+                <span class="bottom-line"></span>
+
+                <div class="d-flex flex-row news">
+                    <div class="d-flex flex-column data">
+                        <span class="title">Where To Travel</span>
+                        <span class="description">Matoa Where To Travel? Yogyakarta</span>
+                        <a href="#link" class="discover">Discover</a>
+                    </div>
+                    <div class="pic">
+                        <div class="background"></div>
+                        <img class="zig-zag-1" src="images/zig_zag_middle_1_1.svg" alt="Zig Zag">
+                        <img class="zig-zag-2" src="images/zig_zag_middle_1_2.svg" alt="Zig Zag">
+                        <img class="news-img" src="images/recent_news.png" alt="Watch Image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-5">
+                <div class="item-col">
+                    <span class="heading">Maple Series</span>
+                    <span class="bottom-line"></span>
+                    
+                    <div class="products">
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/maple_watch_1.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Way Kambas Maple</span>
+                                <span class="new-price">Rp 1.280.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/maple_watch_2.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Kaili</span>
+                                <span class="new-price">Rp 950.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/maple_watch_3.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Sunda</span>
+                                <span class="new-price">Rp 1.170.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-col">
+                    <span class="heading">Ebony Series</span>
+                    <span class="bottom-line"></span>
+
+                    <div class="products">
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/ebony_watch_1.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Tomia Ebony</span>
+                                <s class="strok-red">
+                                    <span class="old-price">Rp 1.280.000<span>
+                                </s>
+                                <span class="new-price">Rp 960.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/ebony_watch_2.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Mori</span>
+                                <span class="new-price">Rp 950.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/ebony_watch_3.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Alor</span>
+                                <span class="new-price">Rp 1.170.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-col">
+                    <span class="heading">Featured</span>
+                    <span class="bottom-line"></span>
+
+                    <div class="products">
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/featured_watch_1.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Sikka (Ebony & Maple)</span>
+                                <span class="new-price">Rp 1.198.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/featured_watch_2.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Lore Walnut</span>
+                                <span class="new-price">Rp 1.280.000</span>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="prod-img">
+                                <img src="images/featured_watch_3.png" alt="Watch Image">
+                            </div>
+                            <div class="prod-info">
+                                <span class="title">Way Kambas Limited Edition</span>
+                                <span class="new-price">Rp 1.170.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more">
+                <span class="line"></span>
+                <div class="div-see-more">
+                    <a href="#link" class="btn-see-more">See More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleIndicators-2" class="carousel slide w-100 carousel-fade" data-bs-ride="carousel">
+            <div class="testimonial-fixed">
+                <div class="pic position-absolute">
+                    <div class="heading-bottom-line">
+                        <span class="heading">Testimonials</span>
+                        <span class="bottom-line"></span>
+                    </div>
+                    <div class="background"></div>
+                    <img class="zig-zag-middle" src="images/zig_zag_middle_2.svg" alt="Zig zag Image">
+                </div>
+            </div>
+
+            <div class="d-flex flex-row align-items-center left-right">
+                <button class="left" type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide="prev">
+                    <img src="images/left_arrow.svg" alt="Left Arrow" />
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="right" type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide="next">
+                    <img src="images/right_arrow.svg" alt="Right Arrow" />
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="w-100 carousel-item active stratch">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img class="image" src="images/testimonials.png" alt="Image">
+                        </div>
+                        <div class="data">
+                            <span class="description">Loving my new KAILI watch from @matoa_id, the first ever
+                                Indonesian
+                                watch local brand that uses wood as their main material. Like any other Matoa products,
+                                KAILI is inspired by Indonesian heritage.</span>
+
+                            <span class="username">Gita Savitri</span>
+                            <span class="userroll">Content Creator/Influencer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 carousel-item stratch">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img class="image" src="images/testimonials.png" alt="Image">
+                        </div>
+                        <div class="data">
+
+                            <span class="description">Cheese and biscuits chalk and cheese fromage frais. Cheeseburger caerphilly cheese slices chalk and cheese cheeseburger
+                            mascarpone danish fontina rubber cheese. Squirty cheese say cheese manchego jarlsberg lancashire taleggio cheese and
+                            wine squirty cheese. Babybel pecorino feta macaroni cheese brie queso everyone loves gouda. Cheese and biscuits
+                            camembert de normandie fromage fromage macaroni cheese</span>
+
+                            <span class="username">Gita Savitri</span>
+                            <span class="userroll">Content Creator/Influencer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 carousel-item stratch">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img class="image" src="images/testimonials.png" alt="Image">
+                        </div>
+                        <div class="data">
+
+                            <span class="description">I'm baby migas cornhole hell of etsy tofu, pickled af cardigan pabst. Man braid deep v pour-over, blue bottle art party
+                            thundercats vape. Yr waistcoat whatever yuccie, farm-to-table next level PBR&B. Banh mi pinterest palo santo, aesthetic
+                            chambray leggings activated charcoal cred hammock kitsch humblebrag typewriter neutra knausgaard. Pabst succulents lo-fi
+                            microdosing portland gastropub Banh mi pinterest palo santo</span>
+
+                            <span class="username">Gita Savitri</span>
+                            <span class="userroll">Content Creator/Influencer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 carousel-item stratch">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img class="image" src="images/testimonials.png" alt="Image">
+                        </div>
+                        <div class="data">
+
+                            <span class="description">Radio telescope something incredible is waiting to be known billions upon billions Jean-François Champollion hearts of
+                            the stars tingling of the spine. Encyclopaedia galactica not a sunrise but a galaxyrise concept of the number one
+                            encyclopaedia galactica from which we spring bits of moving fluff. Vastness is bearable only through love paroxysm of
+                            global death concept.</span>
+
+                            <span class="username">Gita Savitri</span>
+                            <span class="userroll">Content Creator/Influencer</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="mx-165 d-flex flex-column justify-content-center">
+
+            <div class="content-7">
+                <span class="heading">Instagram</span>
+                <span class="bottom-line"></span>
+
+                <div class="images">
+                    <img src="images/instagram_watch_1.png" alt="watch image">
+                    <img src="images/instagram_watch_2.png" alt="watch image">
+                    <img src="images/instagram_watch_3.png" alt="watch image">
+                    <img src="images/instagram_watch_4.png" alt="watch image">
+                    <img src="images/instagram_watch_5.png" alt="watch image">
+                </div>
+            </div>
+        </div>
+
+        <div class="companies">
+            <img src="images/comp_bni.png" alt="Company Image">
+            <img src="images/comp_permatabank.png" alt="Company Image">
+            <img src="images/comp_mastercard.png" alt="Company Image">
+            <img src="images/comp_danamon.png" alt="Company Image">
+            <img src="images/comp_visa.png" alt="Company Image">
+            <img src="images/comp_mandiri.png" alt="Company Image">
+            <img src="images/comp_kredivo.png" alt="Company Image">
+            <img src="images/comp_uob.png" alt="Company Image">
+            <img src="images/comp_gopay.png" alt="Company Image">
+            <img src="images/comp_standardChartered.png" alt="Company Image">
+        </div>
+
+        <footer>
+            <img class="zig-zag" src="images/zig_zag_bottom.svg" alt="zig-zag">
+            <div class="footer-content">
+                <div class="column">
+                    <img class="logo" src="images/matoa_white.svg" alt="Logo Image">
+                    <span class="title">Address</span>
+                    <span class="description">Store & Office</span>
+                    <span class="description">Jl. Setrasari Kulon III, No. 10-12, Sukarasa, Sukasari, Bandung, Jawa
+                        Barat,
+                        Indonesia
+                        40152</span>
+                    <span class="title m-16">Office Hour</span>
+                    <span class="description">Monday - Sunday</span>
+                    <span class="description">10.00 - 18.00</span>
+                </div>
+                <div class="column">
+                    <span class="heading">Get in touch</span>
+                    <span class="bottom-line"></span>
+
+                    <div class="contact-info">
+                        <span class="contact-title title">Phone</span>
+                        <span class="contact-number">022-20277564</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-title title">Service Center</span>
+                        <span class="contact-number">0811-233-8899</span>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-title title">Customer Service</span>
+                        <span class="contact-number">0811-235-9988</span>
+                    </div>
+                    <div class="social-media">
+                        <a href="#link" class=""><img src="images/Facebook.svg" alt="Facebook"></a>
+                        <a href="#link" class=""><img src="images/Instagram.svg" alt="Instagram"></a>
+                        <a href="#link" class=""><img src="images/Twitter.svg" alt="Twitter"></a>
+                        <a href="#link" class=""><img src="images/Youtube.svg" alt="Youtube"></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <span class="heading">Useful Link</span>
+                    <span class="bottom-line"></span>
+
+                    <a href="#link" class="link">Warranty & Complaints</a>
+                    <a href="#link" class="link">Order & Shipping</a>
+                    <a href="#link" class="link">Tracking Order</a>
+                    <a href="#link" class="link">About Us</a>
+                    <a href="#link" class="link">Repair</a>
+                    <a href="#link" class="link">Terms</a>
+                    <a href="#link" class="link">FAQ</a>
+                </div>
+                <div class="column">
+                    <span class="heading">Campaign</span>
+                    <span class="bottom-line"></span>
+
+                    <a href="#link" class="link">Mengenal Arti Cukup</a>
+                    <a href="#link" class="link">Tell Your Difference</a>
+                    <a href="#link" class="link">Waykambas</a>
+                    <a href="#link" class="link">Rebrand</a>
+                    <a href="#link" class="link">Gallery</a>
+                    <a href="#link" class="link">Singo</a>
+                    <a href="#link" class="link">Rakai</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
