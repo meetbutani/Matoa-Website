@@ -30,6 +30,8 @@ a {
   outline: none;
   border: none;
   box-shadow: none;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }
 
 .bar-toggler.navbar-toggler-checkbox {
